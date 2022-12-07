@@ -1,0 +1,562 @@
+
+.logo{
+    width: 6% ;
+    height: auto;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.Tit-principal{
+    color: #ffffff;
+    font-size:  2rem;
+}
+
+.navbar-toggler{
+    margin-right: 10%;
+    visibility: hidden;
+    
+}
+
+.container-fluid{
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.navbar-nav{
+    padding-right: 10%;
+    margin-left: 10%;
+   
+    
+}
+
+.navbar-collapse{
+    background-color: rgb(87, 87, 87);
+}
+
+.dropdown-menu{
+    background-color: #212529;
+}
+
+.dropdown-item{
+    color: #ffff;
+}
+
+.nav-link{
+    font-size: 30rem;
+    font-weight: bolder;
+}
+
+img, svg {
+    vertical-align: middle;
+    
+}
+
+.ti1{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #ffff;
+    background-color: #812282;
+    text-align: center;
+    padding: 1%;
+}
+
+.card-title{
+    text-align: center;
+    color: #DA315E;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.card-body .btn-primary{
+    font-weight: bolder;
+    font-size: 1.5rem !important;
+    width: 100% !important;
+    height: auto !important;
+    background-color: #DA315E !important;
+    --bs-btn-active-border-color: #DA315E !important;
+    --bs-btn-border-color:  #DA315E !important;
+}
+
+.card-body{
+    border: none !important;
+    font-size: 1.5rem;
+    width: 100%;
+    height: auto;
+    box-shadow: 0.3em 0.3em 0.5em rgba(124, 124, 124, 0.3);
+}
+
+.card{
+    border: none !important;
+    height: auto;
+    width: 90%;
+    margin: 2% auto 0% auto !important;
+}
+
+#galeria img {
+    width: 100%;
+    height: auto;
+}
+
+#galeria col-lg-4{
+    margin: 10% !important;
+}
+
+
+
+.modal-content{
+    background-color: #212529 !important;
+    color: #ffff !important;
+}
+
+.modal-footer .btn-primary{
+    width: 10% !important;
+    background-color: #DA315E !important;
+    --bs-btn-active-border-color: #DA315E !important;
+    --bs-btn-border-color:  #DA315E !important;
+}
+
+#Contact-footer .btn-primary{
+    width:100% !important;
+}
+
+.Ytv{
+    width: 100%;
+    height: 30rem;
+}
+
+.descripción-grupo{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.tarjeta-grupo{
+    width: 100%;
+    height: auto;
+}
+
+
+.row{
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+    padding: 0 !important;
+}
+
+.tit-integrantes{
+    color: #812282;
+    font-weight: 900;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.integrantes{
+    margin: 3% auto 0 auto;
+    width: 60%;
+    height: auto;
+   
+}
+
+#Present-grupo{
+    
+    cursor: pointer;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.int-grupo{
+    transition: all 500ms ease-in-out;
+}
+
+.capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(129, 34, 130, 0.6);
+    transition: all 500ms ease-out;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.capa h3{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 3rem;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.capa p{
+    color: #ffffff;
+    font-weight:500;
+    font-size: 1rem;
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+
+#Present-grupo:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+#licenciado{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#text-lic{
+    padding-top: 5%;
+}
+
+#Perfil-lic{
+    width: 30%;
+}
+
+.causa{
+    width: 80%;
+    height: auto;
+    margin: 0 10% 0 10%;
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+    color: #DA315E;
+}
+
+#des-tarjeta{
+    text-align: center;
+}
+
+#link-grupo{
+    margin-top: 10% !important;
+ }
+
+.text-secondary:hover{
+   color: #DA315E !important; 
+}
+
+#marca-foot{
+    font-weight: 900;
+    padding-left: 30%;
+}
+
+#marca-foot:hover{
+    color: #DA315E !important;
+}
+
+@media (min-width: 768px){
+#text-tarjeta {
+    flex: 0 0 auto;
+    width: 100%;}
+}
+
+@media (min-width: 768px){
+.col-md-8 {
+    display: flex;
+    width: 100%;}
+}
+
+@media (max-width: 760px) {
+    .logo{
+        width: 30% ;
+        height: auto;
+    }
+    .navbar-brand{
+        display: none;
+    }
+
+    .navbar-toggler{
+        margin-right: 0%;
+    }
+    
+    .container-fluid{
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+    
+    .navbar-nav{
+        padding-right: 0%;
+        margin-left: 0%;
+    }
+
+    .h2, h2 {
+        margin: 0 !important;
+        font-size: 2rem !important;
+        font-weight: bolder !important;
+        color: #DA315E !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+
+    #btn-closs {
+        display: none;
+    }
+
+    .Ytv{
+        width: 100%;
+        height: auto;
+    }
+
+    .btn-primary{
+        background-color: #DA315E !important;
+        --bs-btn-active-border-color: #DA315E !important;
+        --bs-btn-border-color:  #DA315E !important;
+        width: 100% !important;
+    }
+    
+    .card-body{
+        font-size: 1rem;
+        width: 100%;
+        height: auto;
+    }
+    
+    .card{
+        width: 90%;
+        margin: 2% auto 0% auto !important;
+    }
+
+    .modal-footer .btn-primary{
+        width: 100% !important;
+        background-color: #DA315E !important;
+        --bs-btn-active-border-color: #DA315E !important;
+        --bs-btn-border-color:  #DA315E !important;
+    }
+
+    .card-body .btn-primary{
+        font-weight: bolder;
+        font-size: 1rem !important;
+        width: 100% !important;
+        height: auto !important;
+        background-color: #DA315E !important;
+        --bs-btn-active-border-color: #DA315E !important;
+        --bs-btn-border-color:  #DA315E !important;
+    }
+
+    .ti1{
+        font-size: 2rem;
+        font-weight: bolder;
+        color: #ffff;
+        background-color: #812282;
+        text-align: center;
+        padding: 1%;
+    }
+
+    .integrantes{
+        margin: 3% auto 0 auto;
+        width: 100%;
+        height: auto;
+    }
+
+    #Perfil-lic{
+        width: 100%;
+    }
+    
+    #marca-foot{
+        font-weight: 900;
+        padding-left: 0;
+    }
+
+    #contenedor-marca{
+        margin-bottom: 10%;
+        text-align: center;
+    }
+    
+  }
+
+
+  
+
+@media (min-width: 1200px){
+  .h2, h2 {
+      font-size: 4rem !important;
+      font-weight: bolder !important;
+      color: #DA315E !important;
+      margin-left: 30%;
+    }
+
+    .capa h3{
+        color: #ffffff;
+        font-weight: 900;
+        font-size: 2.5rem;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+  
+
+  }
+
+  @media (max-width: 1200px){
+    .h2, h2 {
+        margin: 0 !important;
+        font-size: 2rem !important;
+        font-weight: bolder !important;
+        color: #DA315E !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+
+      .modal-footer .btn-primary{
+        width: 100% !important;
+        background-color: #DA315E !important;
+        --bs-btn-active-border-color: #DA315E !important;
+        --bs-btn-border-color:  #DA315E !important;
+    }
+
+    .card-body .btn-primary{
+        font-weight: bolder;
+        font-size: 1rem !important;
+        width: 100% !important;
+        height: auto !important;
+        background-color: #DA315E !important;
+        --bs-btn-active-border-color: #DA315E !important;
+        --bs-btn-border-color:  #DA315E !important;
+    }
+
+    .card-body{
+        font-size: 1rem;
+        width: 100%;
+        height: auto;
+    }
+    
+    .Ytv{
+        width: 100%;
+        height: 15rem;
+    }
+
+    .descripción-grupo{
+        font-size: 1.2rem;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .col-sm-3 {
+        flex: 0 0 auto;
+        width: 50% !important;
+    }
+    .jeff{
+        height: 20rem;
+    }
+
+    .capa h3{
+        color: #ffffff;
+        font-weight: 900;
+        font-size: 2.5rem;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .Zb-name{
+        color: #ffffff;
+        font-weight: 900;
+        font-size: 2.5rem;
+        margin-top: 15%;
+        margin-bottom: 5%;
+    }
+    
+    }
+
+    @media (max-width: 600px){
+        .col-sm-3 {
+            flex: 0 0 auto;
+            width: 100% !important;
+        }
+
+        .Cei-name{
+            margin-top: 0;
+        }
+    }
+
+    @media (max-width: 375px){
+        .capa h3{
+            color: #ffffff;
+            font-weight: 900;
+            font-size: 2rem;
+            margin-top: 10%;
+            margin-bottom: 5%;
+        }
+
+        
+
+        .capa p{
+            color: #ffffff;
+            font-weight:500;
+            font-size: 1rem;
+            margin-top: 0%;
+            margin-bottom: 10%;
+        }
+        
+    }
+
+    @media (max-width: 355px){
+        .capa h3{
+            color: #ffffff;
+            font-weight: 900;
+            font-size: 3rem;
+            margin-top: 10%;
+            margin-bottom: 5%;
+        }
+
+        
+
+        .capa p{
+            color: #ffffff;
+            font-weight:500;
+            font-size: 1rem;
+            margin-top: 0%;
+            margin-bottom: 10%;
+            display: none;
+        }
+        
+    }
+
+    @media (max-width: 360px){
+        .capa h3{
+            color: #ffffff;
+            font-weight: 900;
+            font-size: 2rem;
+            margin-top: 10%;
+            margin-bottom: 5%;
+        }
+
+        .capa p{
+            color: #ffffff;
+            font-weight:500;
+            font-size: 1rem;
+            margin-top: 0%;
+            margin-bottom: 10%;
+        }
+        
+    }
+
+    @media (max-width: 450px){
+        .capa h3{
+            color: #ffffff;
+            font-weight: 900;
+            font-size: 3rem;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+        .capa p{
+            color: #ffffff;
+            font-weight:500;
+            font-size: 1rem;
+            margin-top: 0%;
+            margin-bottom: 10%;
+        }
+        
+    }
+
+
