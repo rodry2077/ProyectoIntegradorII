@@ -336,7 +336,7 @@ img, svg {
 
 .fb_iframe_widget_fluid_desktop, .fb_iframe_widget_fluid_desktop span, .fb_iframe_widget_fluid_desktop iframe {
     max-width: 80% !important;
-    margin-left: 5% !important;
+    margin-left: 10% !important;
     background-color: #dfdfdf !important;
     color: #ffffff !important;
 }
