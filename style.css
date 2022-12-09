@@ -1,3 +1,16 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#enlaces-trabajo{
+    font-weight: 600;
+    text-decoration: none; 
+    color: #DA315E;
+}
+
+#enlaces-trabajo:hover{
+    color: #212529;
+}
 
 .logo{
     width: 6% ;
